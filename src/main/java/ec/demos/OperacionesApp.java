@@ -7,12 +7,24 @@ import ec.demos.damain.Cliente;
 public class OperacionesApp {
 
 	public static void main(String[] args) {
-		Operaciones operaciones = new Operaciones ();
-		operaciones.setValue1(50);
-		operaciones.setValue2(83);
-		operaciones.sumar();
 
+		Calculadora calculadora=new Calculadora();
+		calculadora.setValue(40);
+		calculadora.setValue2(20);
+		calculadora.suma();
 		
+		calculadora.setValue(90);
+		calculadora.setValue2(11);
+		calculadora.resta();
+		
+		calculadora.setValue(65);
+		calculadora.setValue2(10);
+		calculadora.modulo();
+		
+		calculadora.setValue(44);
+		calculadora.setValue2(35);
+		calculadora.multiplicacion();
+
 		
 	
     Cliente  cliente=new Cliente();
