@@ -45,7 +45,10 @@ public class Operaciones {
 	public void setValue2(int value2) {
 		this.value2 = value2;
 	}
-
 	
 
-}
+	
+		
+	}
+
+
